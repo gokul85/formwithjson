@@ -4,7 +4,7 @@ $('#submit').click(function () {
     var Email = $('#Email').val();
     $.ajax({
         type: "POST",
-        url: "./submit.php",
+        url: "http://fileserver.freecluster.eu/Gokul/submit.php",
         data: {
             name: Name,
             phone: Phone,
